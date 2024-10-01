@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    background-color: #e6e6e6;
+}
+main {
+    padding: 20px;
+}
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+}
+
+.card img {
+    height: 100%;
+}
+
+.card-cover, .card-detail {
+    height: 50%;
+    text-align: center;
+}
